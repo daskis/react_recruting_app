@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: 'Proxima-Nova-Black';
+    src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+    url('proxima_nova/ProximaNova-Black.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Black.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Extrabold';
+    src: local('ProximaNova-Extrabld'), local('ProximaNova-Extrabld'),
+    url('proxima_nova/ProximaNova-Extrabld.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Extrabld.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Bold';
+    src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+    url('proxima_nova/ProximaNova-Bold.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Bold.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Semibold';
+    src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+    url('proxima_nova/ProximaNova-Semibold.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Semibold.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima-Nova-Regular';
+    src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+    url('proxima_nova/ProximaNova-Regular.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Regular.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Light';
+    src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+    url('proxima_nova/ProximaNova-Light.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Light.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima-Nova-Thin';
+    src: local('Proxima Nova Thin'), local('ProximaNova-Thin'),
+    url('proxima_nova/ProximaNova-Thin.woff') format('woff'),
+    url('proxima_nova/ProximaNova-Thin.woff2') format('woff2'),
+    url('proxima_nova/ProximaNova-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Core-Rhino';
+    src: local('Core Rhino 85 Black'), local('CoreRhino85Black'),
+    url('core_rhino/CoreRhino85Black.woff2') format('woff2'),
+    url('core_rhino/CoreRhino85Black.woff') format('woff'),
+    url('core_rhino/CoreRhino85Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Code-Pro';
+    src: local('Code Pro Black'), local('Code-Pro-Black'),
+    url('code_pro/Code-Pro-Black.woff') format('woff'),
+    url('code_pro/Code-Pro-Black.woff2') format('woff2'),
+    url('code_pro/Code-Pro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

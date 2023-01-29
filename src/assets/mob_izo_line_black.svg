@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="461px" viewBox="0 0 263 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mob_izo_line_black</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="10" stroke-linecap="round">
+        <g id="Artboard" transform="translate(-1465.000000, -676.000000)" stroke="#414141">
+            <g id="mob_izo_line_black" transform="translate(1467.000000, 678.000000)">
+                <path d="M100.360333,2.84217094e-14 C100.360333,2.84217094e-14 240.730333,47.1427 251.487333,72.1159 C272.646333,121.2389 239.046333,156.1249 217.968333,169.6329 C170.278333,200.1959 121.401333,188.0029 69.5446331,177.1609 C30.3664331,168.9699 -3.5833669,213.1069 0.304133099,242.5759 C4.1933331,272.0569 63.6831331,304.9969 91.2013331,307.7239 C146.227333,313.1759 227.635333,307.5389 244.945333,337.5199 C262.254333,367.5009 100.360333,456.9999 100.360333,456.9999" id="Path" stroke-width="4"></path>
+                <path d="M9.3604331,184.0009 L11.2118331,205.1629 L33.7340331,199.1979" id="Path" stroke-width="5" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

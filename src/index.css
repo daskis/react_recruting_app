@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.danger__logo:hover .danger__logo__color__first {
+    transition: 0.3s all ease;
+    stop-color: #1db6ff;
+}
+
+.danger__logo:hover .danger__logo__color__second {
+    transition: 0.3s all ease;
+    stop-color: #09cbd2;
+}
+
+.suitcase__logo:hover .suitcase__logo__color {
+    transition: 0.3s all ease;
+    fill: #1db6ff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.line:hover .line__color__first {
+    stop-color: #00E7F0;
+    transition: 0.3s ease all;
+}
+.line:hover .line__color__second {
+    stop-color: #1DB6FF;
+    transition: 0.3s ease all;
+}
+.line:hover .line__color__end {
+    stroke: #1DB6FF;
+    transition: 0.3s ease all;
+}
+
+.line__second:hover .line__second__color__first {
+    stop-color: #00E7F0;
+    transition: 0.3s ease all;
+}
+.line__second:hover .line__second__color__second {
+    stop-color: #1DB6FF;
+    transition: 0.3s ease all;
+}
+.line__second:hover .line__second__color__end {
+    stroke: #1DB6FF;
+    transition: 0.3s ease all;
+}
+
+.people:hover .people__color {
+    fill: rgba(29, 182, 255, 0.7);
+    transition: 0.3s ease all;
+}
+
+
+
+@keyframes desctopAni {
+    0% {
+        opacity: 1;
+
+    }
+    100% {
+
+        opacity: 0;
+    }
+}
+@keyframes desctopAniBlue {
+    0% {
+        opacity: 0;
+
+    }
+    100% {
+
+        opacity: 1;
+    }
+}
+
+.first__line__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.first__line__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.first__line__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.first__line__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.second__line__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.second__line__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.second__line__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.second__line__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.third__line__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.third__line__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.third__line__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.third__line__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+
+
+
+
+
+.first__line__mob__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.first__line__mob__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.first__line__mob__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.first__line__mob__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.second__line__mob__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.second__line__mob__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.second__line__mob__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.second__line__mob__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+.third__line__mob__black {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.third__line__mob__black__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+.third__line__mob__blue {
+    opacity: 1;
+    transition: 1s ease all;
+}
+.third__line__mob__blue__hidden {
+    opacity: 0;
+    transition: 0.3s ease all;
+}
+
+
+.bouncing {
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+    40% {-moz-transform: translateY(-30px);}
+    60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+    40% {-o-transform: translateY(-30px);}
+    60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
